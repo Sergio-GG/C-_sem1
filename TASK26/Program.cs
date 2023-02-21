@@ -4,7 +4,7 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = Counter (number);
-Console.WriteLine($"Количество цифр в числе {result}")
+Console.WriteLine($"Количество цифр в числе {result}");
 // Method
 
 int Counter (int num)
