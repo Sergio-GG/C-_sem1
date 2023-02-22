@@ -4,7 +4,7 @@
 
 Console.WriteLine("Введите номер четверти");
 string number = Console.ReadLine();
-string range = Range(number);
+string range = Range (number);
 string result = range == "0"
                 ? "Такой четверти не существует"
                 : $"Диапазон значений данной четверти {range}";
