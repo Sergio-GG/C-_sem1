@@ -13,7 +13,7 @@ Console.WriteLine(result);
 
 
 
-// Method
+// Method 
 
 string Range(string num)
 {
