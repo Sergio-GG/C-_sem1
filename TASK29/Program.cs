@@ -1,4 +1,6 @@
 ﻿
+
+
 Console.WriteLine("Введите длину массива");
 int arrLen = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[arrLen];
