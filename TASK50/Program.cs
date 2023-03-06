@@ -22,7 +22,7 @@ void PrintResult(int[,] matr, int argI, int argJ)
     {
         Console.WriteLine($"Элемент с индексами [{argI},{argJ}] ---> {matr[argI,argJ]}");
     }
-    else Console.WriteLine("Ошибка ввода, введите значение из допустимого диапазона");
+    else Console.WriteLine("Ошибка ввода, элемента с такими индексами не существует");
 }
 
 
