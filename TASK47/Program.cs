@@ -36,5 +36,5 @@ Console.WriteLine("Введите минимум значений элемент
 int min = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите максимум значений элементов");
 int max = Convert.ToInt32(Console.ReadLine());
-double[,] matrix = CreateRandDoubleMatrix(5,4,min,max);
+double[,] matrix = CreateRandDoubleMatrix(4,4,min,max);
 PrintDoubleMatrix(matrix);
